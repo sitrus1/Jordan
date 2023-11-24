@@ -1,0 +1,304 @@
+body{
+    margin: 0;
+    background: #111111;
+}
+
+.cardBackgroundWrapper{
+    max-width: 1450px;
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 100vh; */
+    /* box-sizing: border-box; */
+    padding: 50px 45px;
+    background-image: url('./images/Jordan\ shoes\ background.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 244.5px;
+}
+
+.header__left{
+    width: 177.75px;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.jordan-logo{
+    display: flex;
+    flex-direction: column;
+}
+
+.jordan-imgLogo{
+    width: 52.531px;
+    height: 52.531px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.jordan-texttitle{
+    font-family: 'Black Ops One';
+    font-size: 14px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.nike-logo{
+    width: 68.25px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.header__midle{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.header__midle__type{
+    margin-right: 50.25px;
+}
+
+.header__midle__type__link{
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
+    font-family: 'Black Ops One';
+    font-size: 13px;
+    font-weight: 800;
+    font-style: normal;
+    text-decoration: none;
+    line-height: normal;
+    letter-spacing: 6.045px;
+    color: #FFF;
+    transition: all .4s;
+}
+.header__midle__type__link:hover{
+    border-bottom-color: #eb00004d;
+}
+
+.active{
+    border-bottom-color: #EB0000;
+}
+.active:hover{
+    padding-bottom: 8px;
+    border-bottom-color: #EB0000;
+}
+
+.header__right{
+    width: 169.5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__right__search-icon{
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+}
+
+.header__right__take-icon{
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+}
+
+.header__right__avatar{
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+}
+
+.pages{
+    width: 12px;
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-bottom: 54px;
+}
+
+.page{
+    width: 12px;
+    height: 12px;
+    background: #FFF;
+    border-radius: 50%;
+}
+
+.page1{
+    opacity: .2;
+}
+.page2{
+    opacity: .4;
+}
+.page3{
+    opacity: .6;
+}
+.page4{
+    opacity: .8;
+}
+.page5{
+    opacity: 1;
+}
+
+.midle{
+    width: 337px;
+    height: 93.25px;
+    margin-left: 776px;
+    margin-bottom: 54px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.midle__coast{
+    margin-right: 5px;
+    font-family: 'Black Ops One';
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    color: #E70000;
+}
+
+.midle__typeOfShoes{
+    color: #FFF;
+    font-family: 'Black Ops One';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 20.25px; /* 112.5% */
+    letter-spacing: 1.35px;
+}
+
+.midle__typeDescription{
+    font-weight: 400;
+    letter-spacing: 3.78px;
+}
+
+.midle__exclusiveD{
+    padding: 7.5px 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    text-transform: lowercase;
+    border-radius: 9.75px;
+    color: #FFF;
+    background: #EB0000;
+}
+
+.bottom{
+    width: 1370px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom__left{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom__left__text{
+    margin-bottom: 10px;
+    font-family: 'Black Ops One';
+    font-size: 14px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.bottom__left__color{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all .5s;
+}
+.bottom__left__color:hover{
+    filter: drop-shadow(0px 0px 1px #3e3e3e);
+}
+
+.bottom__left__color-input{
+    display: none;
+}
+.bottom__left__color-input:checked + .bottom__left__color{
+    transform: translateY(-10px) rotateY(180deg);
+    filter: drop-shadow(0px 0px 20px #bcbcbc);
+}
+
+.bottom__midle{
+    display: flex;
+    align-items: center;
+}
+
+.bottom__midle__link1, .bottom__midle__link2{
+    width: 179.25px;
+    height: 51.75px;
+    box-sizing: border-box;
+    padding: 15px 22.5px;
+    margin-right: 33px;
+    border: none;
+    font-family: 'Black Ops One';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    border: 2px solid #FFF;
+    color: #FFF;
+    background: transparent;
+    cursor: pointer;
+    transition: all .4s;
+}
+.bottom__midle__link1:hover, .bottom__midle__link2:hover{
+    color: #000;
+    background: #FFF;
+}
+
+.bottom__right{
+    width: 343.5px;
+}
+
+.bottom__right__h3title{
+    margin-bottom: 6.75px;
+    font-family: 'Black Ops One';
+    font-size: 14px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.8px;
+    color: #FFF;
+}
+
+.bottom__right__ptext{
+    width: 333px;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.25px; /* 155.769% */
+}
